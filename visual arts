@@ -5,7 +5,7 @@
       		href="assets/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/.initial.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kelly Liu</title>
+        <title>Visual Arts</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
@@ -25,13 +25,9 @@
         </header>
 
         <div id ="background">
-            <h3 id = med-font>Hello! I'm</h3>
-            <h1 id = big-font>Kelly</h1>
-
-
-            <div class = "kelly"><img src = "assets/images/Project - Drawing 1 1.svg"/></div>
-
-            <p>I am an engineering student at UC Berkeley. I use innovation to solve problems in technology and product design!</p>
+            
+        
+        
         </div>
 
         
