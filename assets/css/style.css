@@ -1,0 +1,108 @@
+nav ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 10;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    z-index: 10;
+}
+
+.logo{
+    margin-left: 10px;
+    z-index: 10;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+header a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #0A0E60;
+    height: 50px;
+}
+
+.kelly{
+    max-width: 100%;
+    height: auto;
+}
+
+#med-font{
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    text-align: center;
+    
+    /* Light headline 1 */
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 71px;
+    
+    color: #FFFFFF;
+
+    display: inline-block;
+}
+
+#big-font{
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 160px;
+line-height: 195px;
+letter-spacing: 0.1em;
+
+
+    color: #FFFFFF;
+}
+
+#description{
+    position: absolute;
+    top: 60%;
+    width: 50%;
+height: 132px;
+
+    left: 40%;
+    
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}

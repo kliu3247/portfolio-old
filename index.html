@@ -3,40 +3,41 @@
 	<head>
 		<link rel="stylesheet" type="text/css"
       		href="assets/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/.initial.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kelly Liu</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+        <script src = "node_modules/snapsvg/dist/snap.svg-min.js"></script>
+        
     </head>
 
     <body>
-        <header>
+        <header class = "header">
+            <h3 class = "logo"><a href="index.html">KELLY</a></h3>
             <nav>
-                <ul id = "navbar">
-                    <li id = "one"><a href="index.html">Kelly</a></li>
-                    
-                    <li id = "right"><a href=" ">Projects</a></li>
-                    <li id = "right"><a href="">Visual arts</a></li>
-                    <li id = "right"><a href=" ">Resume</a></li>
-                    <li id = "right"><a href=" ">About</a></li>
+                <ul class = "navbar">
+                    <li><a href=" ">Projects</a></li>
+                    <li><a href="">Visual Arts</a></li>
+                    <li><a href=" ">Resume</a></li>
+                    <li><a href=" ">About</a></li>
                 </ul>
               </nav>
         </header>
 
-        <div id ="background">
+        <div class ="background">
+            <!--<div class = "kelly"><img src = "assets/images/Project - Drawing 1 1.svg"/></div>-->
+
             <h3 id = med-font>Hello! I'm</h3>
             <h1 id = big-font>Kelly</h1>
 
-
-            <div class = "kelly"><img src = "assets/images/Project - Drawing 1 1.svg"/></div>
-
-            <p>I am an engineering student at UC Berkeley. I use innovation to solve problems in technology and product design!</p>
+            <p id = description>I am an engineering student at UC Berkeley. I use innovation to solve problems in technology and product design!</p>
         </div>
-
         
-        <footer id="footer">
-        </footer>
+        <svg id='snappy' class='img-responsive' viewBox="0 0 1200 700"></svg>   
+        
+
+        <script src = "demo.js"></script>
     </body>
     
 </html>
