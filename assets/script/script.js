@@ -16,5 +16,5 @@ speed: .2,
 
 var pic1 = document.getElementById("pic1");
 pic1.onclick = function (){
-  window.location.href = "../index.html";
+  window.location.href = "https://kliu3247.github.io/project2.html";
 }
