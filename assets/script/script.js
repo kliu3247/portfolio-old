@@ -14,9 +14,9 @@ color: '#0A0E60',
 speed: .2,
 });
 
-function link (website){
-  window.location.href = website;
-}
+
 
 let pic2 = document.getElementById("pic2");
-pic2.onclick = link("https://kliu3247.github.io/project2.html");
+pic2.onclick = function (){
+  window.location.href = "https://kliu3247.github.io/project2.html";
+}
