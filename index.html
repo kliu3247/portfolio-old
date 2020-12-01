@@ -14,10 +14,10 @@
             <h3 class = "logo"><a href="index.html">KELLY</a></h3>
             <nav>
                 <ul class = "navbar">
-                    <li><a href=" ">Projects</a></li>
-                    <li><a href="">Visual Arts</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="Visual Arts.html">Visual Arts</a></li>
                     
-                    <li><a href=" ">About</a></li>
+                    <li><a href="About.html">About</a></li>
                 </ul>
               </nav>
         </header>
@@ -43,11 +43,11 @@
         </section>
 
         
-        <h5 id = "trigger">Check out my work!</h5>
+        <h5 id = "button">Check out my work!</h5>
         <button class = "arrow down"></button>
 
 
-        <section class = projects>
+        <section class = "target">
             <h1 id = "p">Projects</h1>
                 <div class = "b">
                     <div id ="backgroundA">
@@ -57,7 +57,7 @@
                                     <img id = "item1" src = "assets/images/page1/Group5.png"/>
                                 </div>
                                 <div class="back1">
-                                    <img src = "assets/images/Flipped/pat.png">
+                                    <img id = "pic1" src = "assets/images/Flipped/pat.png">
                                 </div>
                             </div>
                         </div>
@@ -176,12 +176,14 @@
         <script src = "assets/script/script.js"></script>
 
         <!--script for scrolling-->
-        <script type = "module"> 
-            import jump from './libraries/jump.js/dist/jump.module.js';
-            var button = document.getElementById('arrow down');
-            button.addEventListener('click', () => {
-                jump('.projects');
-            })
+        <script type="module">
+            import jump from './node_modules/jump.js/dist/jump.module.js';
+    
+            var button = document.getElementById('button');
+    
+            button.addEventListener('click', function (event) { 
+                jump('.target')
+            });
         </script>
         
     </body>

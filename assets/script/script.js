@@ -14,3 +14,7 @@ color: '#0A0E60',
 speed: .2,
 });
 
+var pic1 = document.getElementById("pic1");
+pic1.onclick = function (){
+  window.location.href = "../index.html";
+}

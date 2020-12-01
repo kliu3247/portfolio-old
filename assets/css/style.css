@@ -156,7 +156,7 @@ header a:visited{
     left: 5%;
 }
 
-#trigger{
+#button{
     position: absolute;
     bottom: 2%;
     width: 100%;
@@ -209,7 +209,7 @@ header a:visited{
 /****
 CSS FOR PROJECTS PAGE
 ****/
-.projects{
+.target{
     position: relative;
     margin-top: 60%;
     top: 70%;
@@ -516,7 +516,6 @@ CSS FOR CONTACT PAGE
 
     color: #FFFFFF;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     padding-top: 5px;
 }
 
