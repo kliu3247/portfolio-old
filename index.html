@@ -14,7 +14,7 @@
             <h3 class = "logo"><a href="index.html">KELLY</a></h3>
             <nav>
                 <ul class = "navbar">
-                    <li><a href="index.html">Projects</a></li>
+                    <li id = "proj">Projects</li>
                     <li><a href="Visual-Arts.html">Visual Arts</a></li>
                     
                     <li><a href="About.html">About</a></li>
@@ -43,7 +43,7 @@
         </section>
 
         
-        <h5 id = "button">Check out my work!</h5>
+        <h5 id = "b">Check out my work!</h5>
         <button class = "arrow down"></button>
 
 
@@ -175,16 +175,27 @@
         <script src="libraries/wavify-master/jquery.wavify.js"></script>
         <script src = "assets/script/script.js"></script>
 
-        <!--script for scrolling
-        <script type="module">
-            import jump from './node_modules/jump.js/dist/jump.module.js';
+        <!--script for scrolling-->
+        <script type = "module">
+            import jump from './libraries/jump.js/dist/jump.module.js';
     
-            var button = document.getElementById('button');
+            let button = document.getElementById('proj');
     
             button.addEventListener('click', function (event) { 
                 jump('.target')
             });
-        </script> -->
+        </script> 
+
+        <!--script for scrolling-->
+        <script type = "module">
+            import jump from './libraries/jump.js/dist/jump.module.js';
+    
+            let button1 = document.getElementById('b');
+    
+            button1.addEventListener('click', function (event) { 
+                jump('.target')
+            });
+        </script> 
         
     </body>
 </html>
