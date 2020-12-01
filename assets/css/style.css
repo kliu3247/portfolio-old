@@ -209,7 +209,7 @@ header a:visited{
 /****
 CSS FOR PROJECTS PAGE
 ****/
-.target{
+#Projects{
     position: relative;
     margin-top: 60%;
     top: 70%;
