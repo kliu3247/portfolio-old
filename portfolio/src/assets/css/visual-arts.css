@@ -1,0 +1,156 @@
+.visual-arts{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: 0.6em;
+
+    color: #0A0E60;
+    text-align: center;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1675px) {
+    .images{
+        margin-top:5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .art{
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .row1{
+        height: 600px;
+        width: auto;
+    }
+    .row2{
+        height: 525px;
+        width: auto;
+    }
+    .row3{
+        height: 700px;
+        width: auto;
+    }
+
+    .row4{
+        height: 685px;
+        width: auto;
+    }
+
+    .row5{
+        height: 375px;
+        width: auto;
+    }
+
+    .row6{
+        height: 555px;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:1360px) and (max-width: 1675px){
+    .images{
+        margin-top:5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .art{
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .row1{
+        height: 450px;
+        width: auto;
+    }
+
+   
+}
+
+@media only screen and (max-width:1360px) and (min-width: 1075px){
+    .images{
+        margin-top:7%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .row1{
+        height: 350px;
+    }
+    
+    .row2{
+        height: 310px;
+    }
+
+    .row3{
+        height: 415px;
+    }
+
+    .row4{
+        height: 405px;
+    }
+
+    .row5{
+        height: 217px;
+    }
+
+    .row6{
+        height: 318px;
+    }
+}
+
+@media only screen and (max-width:1075px){
+    .images{
+        margin-top:7%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .row1{
+        width: 600px;
+        height: auto;
+    }
+    
+    .row2{
+        width: 600px;
+        height: auto;
+    }
+
+    .row3{
+        width: 600px;
+        height: auto;
+    }
+
+    .row4{
+        width: 600px;
+        height: auto;
+    }
+
+    .row5{
+        width: 600px;
+        height: auto;
+    }
+
+    .row6{
+        width: 600px;
+        height: auto;
+    }
+}

@@ -1,0 +1,851 @@
+/*** 
+CSS FOR INTRO PAGE
+ ***/
+html{
+   overflow-x: hidden;
+}
+
+body{
+    margin:  0 0 0 0;
+    
+}
+
+nav ul{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    box-sizing: border-box;
+    z-index: 20;
+}
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.navbar li{
+    position: sticky;
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    z-index: 25;
+    padding-top: 10px;
+}
+
+.logo{
+    position: sticky;
+    z-index: 20;
+}
+
+.logopic{
+    width: 35px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    z-index: 20;
+}
+
+header a:visited{
+    color:white;
+    text-decoration: none;
+    z-index: 20;
+}
+
+.header{
+    background:opacity(0);
+    height: 50px;
+    z-index: 20;
+}
+
+.background{
+    position: relative;
+    top: -100px;
+    background-color: white;
+    height:100vh;
+}
+
+#med-font{
+    position: absolute;
+    top: 5%;
+    width: 60%;
+    text-align: center;
+    
+    /* Light headline 1 */
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 71px;
+    
+    color: #FFFFFF;
+
+    display: inline-block;
+    z-index: 8;
+    left: -100px;
+}
+
+#big-font{
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    text-align: center;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 160px;
+    line-height: 195px;
+    letter-spacing: 0.1em;
+
+
+    color: #FFFFFF;
+    z-index: 8;
+}
+
+#description{
+    position: absolute;
+    top: 65vh;
+    width: 80wh;
+    height: 132px;
+
+    left: 40vw;
+    right: 10vw;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+span{
+    font-weight: 500;
+}
+
+#specific{
+    position: relative;
+    top: 75vh;
+    width: 58%;
+    height: 132px;
+
+    left: 38%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height:28px;
+    color: black;
+}
+
+
+
+
+
+
+/*A TYPICAL SCREEN */
+@media only screen and (max-width:1000000px) {
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-40%;
+        top: 4%;
+        min-width: 900px;
+        
+        transform: rotate(235deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 40%;
+        left: 15%;
+    }
+}
+
+/*responsiveness for aspect ratios*/
+@media only screen and (max-aspect-ratio: 7/4) and (min-aspect-ratio: 2/5) and (min-width: 1280px) {
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+        
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-36%;
+        top: 6%;
+        min-width: 900px;
+        
+        transform: rotate(238deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 40%;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1120px) and (min-height: 910px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+
+        padding: 15% 15% 15% 15%;
+        
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-34%;
+        top: 8%;
+        min-width: 900px;
+        
+        transform: rotate(240deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 40%;
+        left: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 1120px) and (max-height: 910px) and (min-height: 700px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+        
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-40%;
+        top: 1%;
+        min-width: 900px;
+        
+        transform: rotate(240deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 40%;
+        left: 15%;
+    }
+}
+
+/*responsiveness for MizsizeD? screens*/
+@media only screen and (max-width: 1120px) and (min-width: 950px) and (max-height: 700px) {
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-45%;
+        top: -6.5%;
+        min-width: 900px;
+        
+        transform: rotate(240deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 100%;
+        
+        top: 40%;
+        left: 6%;
+    }
+}
+
+/*small screens*/
+@media only screen and (max-width: 950px) and (max-height: 700px) {
+    
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+        
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-58%;
+        top: -8%;
+        min-width: 900px;
+        
+        transform: rotate(230deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 100%;
+        
+        top: 40%;
+        left: 5%;
+    }
+}
+
+/*small-ish screens*/
+@media only screen and (max-width: 1200px) and (min-width: 950px) and (min-height: 950px){
+    
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+        
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        left:-40%;
+        top: 5%;
+        min-width: 900px;
+        
+        transform: rotate(240deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 100%;
+        
+        top: 35%;
+        left: 12%;
+    }
+}
+
+
+/*1100 pixel ish and changing height */
+@media only screen and (max-width: 1200px) and (min-width: 800px) and  (max-height: 700px) and (min-height: 500px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        left:-40%;
+        top: -3%;
+        min-width: 900px;
+        
+        transform: rotate(240deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 100%;
+        
+        top: 38%;
+        left: 12%;
+    }
+}
+
+#b{
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #0A0E60;
+}
+
+.arrow {
+    
+    text-align: center;
+
+    border: solid black;
+    background-color: white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+    position: absolute;
+    top:95%;
+    left:50%;
+
+    -webkit-animation: 1.5s arrow infinite ease;
+    animation: 1.5s arrow infinite ease;
+  }
+
+@keyframes arrow{
+    0%, 100%{
+        top:95%;
+    }
+    50%{
+        top: 96%;
+    }
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+
+
+/****
+CSS FOR PROJECTS PAGE
+****/
+
+@media only screen and (max-width: 1550px) and (min-width: 1200px){
+    /*proj 1*/
+    #projPic1{
+        padding: 0 0 0 0;
+        position: absolute;
+        width: 350px; /*make responsive*/
+        left:60vw; /*make responsive*/
+        border-radius: 28px;
+        top: 15vh; /*make responsive*/
+    }
+
+    /*proj 2*/
+    #projPic2{
+        padding: 0 0 0 0;
+        padding-top: 70px;
+        position: absolute;
+        width:25vw;
+        left: 60vw;
+        border-radius: 28px;
+        top: 15vh;
+    }
+
+    /*proj 3*/
+    #projPic3{
+        padding: 0 0 0 0;
+        padding-top: 130px;
+        position: absolute;
+        width: 500px;
+        left: 60vw;
+        border-radius: 28px;
+        top:10vh;
+    }
+
+    /*proj 4*/
+    #projPic4{
+        padding: 0 0 0 0;
+        padding-top: 25vh;
+        position: absolute;
+        width: 400px;
+        left: 60vw;
+        border-radius: 28px;
+    }
+
+     /*proj 5*/
+    #projPic5{
+        padding: 0 0 0 0;
+        padding-top: 160px;
+        position: absolute;
+        width:450px;
+        left:55vw;
+        border-radius: 28px;
+    }
+
+    /* general classes*/
+    .line{
+        width: 40px;
+        padding: 0 0 0 0;
+        padding-top: 14vh;
+    }
+
+    .type{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: 0.1em;
+
+        padding-left: 10px;
+
+        padding-top: 10vh;
+
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+
+    .projLabel{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: 0.1em;
+
+        color: #FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .projDescription{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: 0.1em;
+        width: 500px;
+
+        color: #FFFFFF;
+        
+        margin-bottom: 10px;
+        margin-top:10px;
+    }
+
+    .projDirect{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+
+        color: #FFFFFF;
+        margin: 0 0 0 0;
+        margin-top: 25px;
+
+    }
+
+    .seeArrow{
+        padding: 0 0 0 0;
+        width:100px;
+        margin-top: 25px;
+        padding-right: 15px;
+    }
+
+    .arrowContainer{
+        display:flex;
+    }
+
+}
+
+@media only screen and (min-width: 1550px) {
+    /*proj 1*/
+    #projPic1{
+        padding: 0 0 0 0;
+        position: absolute;
+        width:450px;
+        left:55vw;
+        border-radius: 28px;
+    }
+
+    /*proj 2*/
+    #projPic2{
+        padding: 0 0 0 0;
+        padding-top: 60px;
+        position: absolute;
+        width:25vw;
+        left:55vw;
+        border-radius: 28px;
+    }
+
+    /*proj 3*/
+    #projPic3{
+        padding: 0 0 0 0;
+        padding-top: 130px;
+        position: absolute;
+        width: 750px;
+        left:55vw;
+        border-radius: 28px;
+    }
+
+    /*proj 4*/
+    #projPic4{
+        padding: 0 0 0 0;
+        padding-top: 200px;
+        position: absolute;
+        width: 550px;
+        left:55vw;
+        border-radius: 28px;
+    }
+
+    /*proj 5*/
+    #projPic5{
+        padding: 0 0 0 0;
+        padding-top: 160px;
+        position: absolute;
+        width:450px;
+        left:55vw;
+        border-radius: 28px;
+    }
+
+    /* general classes*/
+    .line{
+        width: 40px;
+        padding: 0 0 0 0;
+        padding-top: 130px;
+    }
+
+    .type{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.1em;
+
+        padding-left: 10px;
+
+        padding-top: 80px;
+
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+
+    .projLabel{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 78px;
+        letter-spacing: 0.1em;
+
+        color: #FFFFFF;
+        margin-top:50px;
+        margin-bottom: 40px;
+    }
+
+    .projDescription{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.1em;
+        width: 600px;
+
+        color: #FFFFFF;
+        margin-top:20px;
+        margin-bottom: 0;
+    }
+
+    .projDirect{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+
+        color: #FFFFFF;
+        margin: 0 0 0 0;
+        margin-top: 25px;
+    }
+
+    .seeArrow{
+        padding: 0 0 0 0;
+        width:100px;
+        margin-top: 25px;
+        padding-right: 15px;
+    }
+
+    .arrowContainer{
+        display:flex;
+    }
+}
+
+/*non-changing containers*/
+.lineContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+/*project one page*/
+.target1{
+    position: relative;
+    
+    height: 92vh;
+    background-color: #AF84D1;
+
+    padding-top:5%;
+
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+
+/*project two page*/
+.target2{
+    position: relative;
+    
+    height: 93vh;
+    background-color: #E16969;
+
+    padding-top:5%;
+
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+
+/*project three page*/
+.target3{
+    position: relative;
+    
+    height: 93vh;
+    background-color: #62ABFF;
+
+    padding-top:5%;
+
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+/*project four page*/
+.target4{
+    position: relative;
+    
+    height: 93vh;
+    background-color: #FFDE46;
+
+    padding-top:5%;
+
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+
+/*project five page*/
+.target5{
+    position: relative;
+    
+    height: 93vh;
+    background-color: #75DBA3;
+
+    padding-top:5%;
+
+    padding-left: 15%;
+    padding-right:15%;
+}
