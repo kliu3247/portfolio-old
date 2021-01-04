@@ -67,6 +67,7 @@ import midfi4 from "../assets/images/BIDesignChallenge/midfi4.png";
 
 import HMW from "../assets/images/BIDesignChallenge/HMW.png";
 
+
 const Project2 = () => (
     <>
         <img id = "rect" src = {rectangle} />
@@ -290,8 +291,12 @@ const Project2 = () => (
             <img id = "ns" src = {ns} />            
             
         </section>
+        
     </>
+
+    
 );
     
 
 export default Project2;
+

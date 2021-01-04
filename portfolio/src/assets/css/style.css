@@ -67,6 +67,12 @@ a{
     z-index: 20;
 }
 
+.white{
+    color:white;
+    text-decoration: none;
+    z-index: 20;
+}
+
 
 header:visited{
     text-decoration: none;
@@ -470,6 +476,7 @@ span{
     bottom: 2%;
     width: 100%;
     text-align: center;
+    margin-bottom: 30px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -478,12 +485,12 @@ span{
     line-height: 22px;
     /* identical to box height */
 
+    cursor: pointer;
 
     color: #0A0E60;
 }
 
 .arrow {
-    
     text-align: center;
 
     border: solid black;

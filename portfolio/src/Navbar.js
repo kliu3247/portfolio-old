@@ -5,6 +5,8 @@ import logoblue from "./assets/images/logo-blue.png";
 import logo from "./assets/images/logo.png";
 import './assets/css/style.css';
 
+
+
 function LogoChoice() {
     const location = useLocation();
     let loc = location.pathname;
@@ -18,15 +20,15 @@ function LogoChoice() {
 
                     <nav className = "navbar">
                         <li id = "proj">
-                            <Link to = "/projects">Projects</Link>
+                            <Link class = "white" to = "/">Projects</Link>
                         </li>
 
                         <li>
-                            <Link to = "/visual-arts">Visual Arts</Link>
+                            <Link class = "white" to = "/visual-arts">Visual Arts</Link>
                         </li>
                         
                         <li>
-                            <Link to = "/about">About</Link>
+                            <Link class = "white" to = "/about">About</Link>
                         </li>
                     </nav>
                 </header>
@@ -42,7 +44,7 @@ function LogoChoice() {
 
                 <nav className = "navbar">
                     <li id = "proj">
-                        <Link to = "/projects">Projects</Link>
+                        <Link to = "/">Projects</Link>
                     </li>
 
                     <li>

@@ -12,6 +12,8 @@ import pic5 from "../assets/images/kingpin/kingp.svg";
 
 import proj2 from "../projects/Project2";
 
+import { Link } from 'react-scroll';
+
 class HomePage extends React.Component {
     render() {
         return (
@@ -53,19 +55,27 @@ class HomePage extends React.Component {
             </div>
 
             
-            <h5 id = "b">Check out my work!</h5>
+            <Link id = "b" activeClass="active" to="Patagonia" spy={true} smooth={true} duration={1000}>
+                Check out my work!
+            </Link>
             <button class = "arrow down"></button>
 
-            <ProjectSection
-                number = '1'
-                image = {pic1}
-                type = "UI/UX | Research"
-                label1 = "PATAGONIA"
-                label2 =  "DIGITAL"
-                label3 = "SPACES"
-                description = "Working to integrate digital spaces into Patagonia’s packaging."
-                link = ""
-            />
+            
+
+            <div id = "Patagonia">
+                <ProjectSection
+                    number = '1'
+                    image = {pic1}
+                    type = "UI/UX | Research"
+                    label1 = "PATAGONIA"
+                    label2 =  "DIGITAL"
+                    label3 = "SPACES"
+                    description = "Working to integrate digital spaces into Patagonia’s packaging."
+                    link = ""
+                    
+                />
+            </div>
+           
 
             <ProjectSection
                 number = '3'
