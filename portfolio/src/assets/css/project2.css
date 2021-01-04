@@ -187,6 +187,14 @@
     left: 40px;
 }
 
+#summary{
+    position: absolute;
+
+    top: 270px;
+    width: 500px;
+    
+}
+
 /*2*/
 #problem{
     position: absolute;
@@ -212,6 +220,14 @@
     position: absolute;
     left: 800px;
     height:419px;
+}
+
+#hmw{
+    position: absolute;
+    left: 830px;
+    z-index: 3;
+    width: 500px;
+    margin-top: 60px;
 }
 
 /*3*/
@@ -252,7 +268,15 @@
     width: 650px;
     height: 500px;
     top: 200px;
-    
+}
+
+#surveywords{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 200px;
+    z-index: 3;
+    margin-left: 50px;
 }
 
 #interview{
@@ -271,57 +295,30 @@
     top: 700px;
 }
 
+#int{
+    position: absolute;
+    width: 600px;
+    left: 53vw;
+    top: 800px;
+}
+
 /*4*/
 #synthesis{
     position: absolute;
     top: 3000px;
 }
 
-#insight1{
-    position: absolute;
-    width: 424.85px;
-    height: 300px;
-    left: 206px;
-}
-
-#insight2{
-    position: absolute;
-width: 413px;
-height: 300px;
-left: 727px;
-
-}
-
-#insight3{
-    position: absolute;
-width: 332.94px;
-height: 325px;
-left: 51px;
-top: 500px;
-}
-
-#insight4{
-    position: absolute;
-width: 436px;
-height: 296px;
-left: 465px;
-top: 500px;
-}
-
-#insight5{
-    position: absolute;
-width: 478.78px;
-height: 340px;
-left: 901px;
-top: 500px;
+#insights{
+    width:600px;
+    margin-left: 10vh;
 }
 
 #synthesis-description{
     position: absolute;
-    top: 125px;
+    top: 200px;
     bottom: 40px;
-    left: 50px;
-    width: 100vw;
+    left: 50vw;
+    width: 500px;
 }
 
 #venndiagram{
@@ -329,7 +326,7 @@ top: 500px;
     width: 832px;
     height: 394px;
     left: 572px;
-    top: 900px;
+    top: 750px;
 }
 
 #rect5{
@@ -337,27 +334,35 @@ top: 500px;
     width: 832px;
     height: 394px;
     
-    top: 900px;
+    top: 750px;
+}
+
+#takeaways{
+    position: absolute;
+    width: 400px;
+    top: 760px;
+    left: 5vw;
 }
 
 #persona{
     position: absolute;
-    top: 1350px;}
+    top: 1200px;}
 
 #people{
     width:1000px;
     position: absolute;
-    top: 1450px;
+    top: 1300px;
     display: block;
-    margin-left:60%;
+    margin-left:30%;
 }
+
 
 /*5*/
 #ideation{
     position: absolute;
     width: 333px;
     height: 59px;
-    top: 5160px;
+    top: 5000px;
 }
 
 #rect6{
@@ -371,11 +376,25 @@ top: 500px;
     width: 340px;
 }
 
+#bd{
+    position: absolute;
+    width: 500px;
+    top: 280px;
+    left: 60px;
+}
+
 #rect7{
     position: absolute;
     top: 620px;
     width: 800px;
     left:52vw;
+}
+
+#mm{
+    position: absolute;
+    top: 750px;
+    width: 500px;
+    left:57vw;
 }
 
 #mindmap{
@@ -396,7 +415,7 @@ top: 500px;
     position: absolute;
     top: 1300px;
     width: 950px;
-    left: 20vw;
+    left: 18vw;
 }
 
 #ideas{
@@ -404,8 +423,82 @@ top: 500px;
     top: 1150px;
 }
 
+#explain {
+    position: absolute;
+    width: 817px;
+    height: 108px;
+    left: 306px;
+    top: 1800px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #62ABFF;
+}
+
 
 
 
 /*6*/
+#prototype{
+    position: absolute;
+    width: 400px;
+    height: 59px;
+    top: 6900px;
+}
+
+
+
+#proto-description{
+    position: absolute;
+    top: 170px;
+    width: 1350px;
+    left: 40px;
+}
+
+#lowfi{
+    width: 1300px;
+    margin-left: 3vw;
+    position: absolute;
+    top: 250px;
+}
+
+#med{
+    left: 40px;
+    width: 1400px;
+    position: absolute;
+    top: 900px;
+}
+
+#med-description{
+    left: 40px;
+    width: 1400px;
+    position: absolute;
+    top: 980px;
+}
+
+#mid-fi{
+    position: absolute;
+    top: 1050px;
+    width: 1000px;
+    margin-left: 15vw;
+}
+
+/*7*/
+
+#next{
+    position: absolute;
+    top: 8700px;
+}
+
+#ns{
+    position: absolute;
+    top: 60px;
+    left: 3vw;
+}
 
