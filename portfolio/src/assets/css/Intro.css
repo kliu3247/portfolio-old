@@ -1,0 +1,159 @@
+#rect{
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+}
+
+#title{
+    position: absolute;
+    width: 756px;
+    height: 337px;
+    left: 10vw;
+    top: 85px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height:80px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+#display1{
+    position: absolute;
+    width: 611px;
+    height: 473px;
+    left: 50vw;
+    top: 65px;
+}
+
+#slideshow{
+    position: absolute;
+    top: 700px;
+    left: 40vw;
+}
+
+#three{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#rect1{
+    position: absolute;
+    top: 700px;
+    height: 525px;
+}
+
+
+#displayBackground{
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+
+
+
+
+#background{
+    position: absolute;
+    margin-top:15px;
+    margin-left: 40px;
+}
+
+#content{
+    position: absolute;
+    margin-top: 30px;
+    left: 50px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+
+    color: #62ABFF;
+}
+
+.section{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 8px;
+    letter-spacing: 0.1em;
+
+    color: #404040;
+}
+
+.num{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 8px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+
+    color: #62ABFF;
+}
+
+.subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+
+    color: #62ABFF;
+}
+
+#box {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 75px;
+}
+
+#year{
+    display: flex;
+}
+
+#tools{
+    position: absolute;
+    left: 200px;
+    display: flex;
+}
+
+#line1{
+    margin-right: 4px;
+}
+
+#line2{
+    margin-right: 4px;
+}
+
+.para{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    width: 500px;
+
+    position: absolute;
+    top: 40px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import line from "../assets/images/arrows/Line 2.svg";
 import arrow from "../assets/images/arrows/seethisproj.png";
 
@@ -19,7 +19,19 @@ const ProjectSection = props => (
             </div>
 
             <h3 class = "projLabel">
-                {props.label}
+                {props.label1}
+            </h3>
+
+            <h3 class = "projLabel">
+                {props.label2}
+            </h3>
+
+            <h3 class = "projLabel">
+                {props.label3}
+            </h3>
+
+            <h3 class = "projLabel">
+                {props.label4}
             </h3>
 
             <h4 class = "projDescription">

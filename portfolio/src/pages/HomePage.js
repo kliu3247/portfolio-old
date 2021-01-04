@@ -1,7 +1,7 @@
 import React from 'react';
 import kelly from '../assets/images/kelly.svg';
 import '../assets/css/style.css';
-import Wave from 'react-wavify';
+import Wave from 'react-wavify'
 import ProjectSection from "../components/ProjectSection.js";
 
 import pic1 from "../assets/images/Patagonia/hangtag.svg";
@@ -9,6 +9,8 @@ import pic2 from "../assets/images/retroarcade/retroarcade.svg";
 import pic3 from "../assets/images/lab/labdesign.svg";
 import pic4 from "../assets/images/BYOW/BYOW.svg";
 import pic5 from "../assets/images/kingpin/kingp.svg";
+
+import proj2 from "../projects/Project2";
 
 class HomePage extends React.Component {
     render() {
@@ -58,17 +60,10 @@ class HomePage extends React.Component {
                 number = '1'
                 image = {pic1}
                 type = "UI/UX | Research"
-                label = "PATAGONIA DIGITAL SPACES"
+                label1 = "PATAGONIA"
+                label2 =  "DIGITAL"
+                label3 = "SPACES"
                 description = "Working to integrate digital spaces into Patagonia’s packaging."
-                link = ""
-            />
-
-            <ProjectSection
-                number = '2'
-                image = {pic2}
-                type = "UI/UX | GRAPHIC DESIGN"
-                label = "RETRO ARCADE"
-                description = "Reimagining and revamping classic arcade games."
                 link = ""
             />
 
@@ -76,16 +71,33 @@ class HomePage extends React.Component {
                 number = '3'
                 image = {pic3}
                 type = "UI/UX | RESEARCH"
-                label = "BI DESIGN CHALLENGE"
+                label1 = "BI"
+                label2 = "DESIGN"
+                label3 = "CHALLENGE"
                 description = "Reimagining virtual lab courses with the onset of COVID-19."
-                link = ""
+                link = "/BI-design-challenge"
             />   
 
+
+            <ProjectSection
+                number = '2'
+                image = {pic2}
+                type = "UI/UX | GRAPHIC DESIGN"
+                label1 = "RETRO"
+                label2 = "ARCADE"
+                label3 = "DESIGN"
+                description = "Reimagining and revamping classic arcade games."
+                link = "/Retro-arcade"
+            />
+
+            
             <ProjectSection
                 number = '4'
                 image = {pic4}
                 type = "SOFTWARE ENGINEERING"
-                label = "BUILD YOUR OWN WORLD"
+                label1 = "BUILD"
+                label2 = "YOUR OWN"
+                label3 = "WORLD"
                 description = "Building a game from ground-up with data structures and algorithms."
                 link = ""
             />  
@@ -94,7 +106,9 @@ class HomePage extends React.Component {
                 number = '5'
                 image = {pic5}
                 type = "WEB DEVELOPMENT"
-                label = "KINGPIN DONUT REDESIGN"
+                label1 = "KINGPIN"
+                label2 = "DONUT"
+                label3 = "REDESIGN"
                 description = "Redesigning Berkeley's local donut shop’s website."
                 link = ""
             />                  
