@@ -1,7 +1,9 @@
 #rect{
-    position: absolute;
-    top: 100px;
+    height: 430px;
     width: 100vw;
+    background-color: #7EBBFF;
+    position: absolute;
+    top: 160px;
 }
 
 #title{
@@ -9,7 +11,7 @@
     width: 756px;
     height: 337px;
     left: 10vw;
-    top: 85px;
+    top: 170px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -19,6 +21,19 @@
     letter-spacing: 0.1em;
 
     color: #FFFFFF;
+}
+
+#c{
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    width: 620px;
+    left: 50vw;
+}
+
+#move-everything{
+    position: absolute;
+    top: 100px;
 }
 
 #slideshow{
@@ -38,6 +53,8 @@
     position: absolute;
     top: 730px;
     height: 525px;
+    width: 100vw;
+    background-color:  #EDEEF0;
 }
 
 
@@ -48,16 +65,6 @@
     margin-right: auto;
     width: 95%;
 }
-
-#c{
-    position: absolute;
-    top: 120px;
-    z-index: 1;
-    width: 620px;
-    left: 770px;
-}
-
-
 
 
 
@@ -189,6 +196,7 @@
 
 #summary{
     position: absolute;
+    left: 2vw;
 
     top: 270px;
     width: 500px;
@@ -220,11 +228,13 @@
     position: absolute;
     left: 800px;
     height:419px;
+    width: 100vw;
+    background-color:  #EDEEF0;
 }
 
 #hmw{
     position: absolute;
-    left: 830px;
+    left: 60vw;
     z-index: 3;
     width: 500px;
     margin-top: 60px;
@@ -259,7 +269,7 @@
     position: absolute;
     width: 727px;
     height: 405px;
-    left: 680px;
+    left: 50vw;
     top: 250px;
 }
 
@@ -289,7 +299,7 @@
 
 #rect4{
     position: absolute;
-    width: 822px;
+    width: 3000px;
     height: 522px;
     left: 648px;
     top: 700px;
@@ -310,14 +320,14 @@
 
 #insights{
     width:600px;
-    margin-left: 10vh;
+    margin-left: 11vw;
 }
 
 #synthesis-description{
     position: absolute;
     top: 200px;
     bottom: 40px;
-    left: 50vw;
+    left: 60vw;
     width: 500px;
 }
 
@@ -346,14 +356,15 @@
 
 #persona{
     position: absolute;
-    top: 1200px;}
+    top: 1200px;
+}
 
 #people{
     width:1000px;
     position: absolute;
     top: 1300px;
     display: block;
-    margin-left:30%;
+    margin-left:20vw;
 }
 
 
@@ -365,9 +376,17 @@
     top: 5000px;
 }
 
+#idea-description {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 1000px;
+}
+
 #rect6{
     position: absolute;
     height: 450px;
+    width: 50vw;
 }
 
 #braindump{
@@ -380,14 +399,15 @@
     position: absolute;
     width: 500px;
     top: 280px;
-    left: 60px;
+    left: 10vw;
 }
 
 #rect7{
     position: absolute;
     top: 620px;
-    width: 800px;
-    left:52vw;
+    width: 50vw;
+    left:50vw;
+    height: 550px;
 }
 
 #mm{
@@ -414,8 +434,8 @@
 #choose{
     position: absolute;
     top: 1300px;
-    width: 950px;
-    left: 18vw;
+    width: 1000px;
+    left: 16vw;
 }
 
 #ideas{
@@ -427,8 +447,10 @@
     position: absolute;
     width: 817px;
     height: 108px;
-    left: 306px;
     top: 1800px;
+
+    left: 22vw;
+
 
     font-family: Montserrat;
     font-style: normal;
@@ -441,9 +463,6 @@
     color: #62ABFF;
 }
 
-
-
-
 /*6*/
 #prototype{
     position: absolute;
@@ -452,12 +471,10 @@
     top: 6900px;
 }
 
-
-
 #proto-description{
     position: absolute;
     top: 170px;
-    width: 1350px;
+    width: 95vw;
     left: 40px;
 }
 

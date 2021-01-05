@@ -1,0 +1,266 @@
+#rectr{
+    height: 430px;
+    width: 100vw;
+    background-color: #E16969;
+    position: absolute;
+    top: 160px;
+}
+
+#title-pr{
+    position: absolute;
+    width: 200px;
+    height: 337px;
+    left: 10vw;
+    top: 230px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height:80px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+/*summary overview year stuff*/
+
+#boxr {
+    display: flex;
+    position: absolute;
+    top: 630px;
+    left: 75px;
+}
+
+#yearr{
+    display: flex;
+}
+
+#toolsr{
+    position: absolute;
+    left: 200px;
+    display: flex;
+}
+
+#line1r{
+    margin-right: 4px;
+    margin-top: 35px;
+    height: 3px;
+}
+
+#line2r{
+    margin-right: 4px;
+    margin-top: 35px;
+    height: 3px;
+}
+
+#teamr{
+    position: absolute;
+    left: 500px;
+    display: flex;
+}
+
+#line3r{
+    margin-right: 4px;
+    margin-top: 35px;
+    height: 3px;
+}
+
+.parar{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    width: 800px;
+
+    position: absolute;
+    top: 40px;
+}
+
+.subtitler{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+
+    color: #DD7761;
+}
+
+#Overviewr{
+    position: absolute;
+    top: 650px;
+}
+
+#rectangle1{
+    position: absolute;
+    top: 200px;
+    height: 525px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+#slideshowr{
+    position: absolute;
+    top: 200px;
+    left: 40vw;
+}
+
+#summaryr{
+    position: absolute;
+    left: 3.5vw;
+
+    top: 320px;
+    width: 450px;
+}
+
+#interface{
+    position: absolute;
+    top: 1350px;
+}
+
+#street-fighter{
+    width:800px;
+    z-index:10;
+    position: absolute;
+    top: 210px;
+}
+
+#rectangle2{
+    position: absolute;
+    top: 210px;
+    height: 505px;
+    width: 100vw;
+    z-index: -10;
+    background-color:#EDEEF0;
+}
+
+#sf{
+    position: absolute;
+    top: 290px;
+    height: 350px;
+    left: 63vw;
+}
+
+.headingr{
+    position: absolute;
+    
+    height: 44px;
+    left: 70px;
+    top: 100px;
+    width: 1000px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    letter-spacing: 0.1em;
+
+    color: #E16969;
+}
+
+#characters{
+    margin-top: 770px;
+}
+
+#describe{
+    width: 95vw;
+    position:absolute;
+    top: 920px;
+    left: 70px;
+}
+
+#character1{
+    width: 80vw;
+    position: absolute;
+    top: 1000px;
+    left:15vh;
+}
+
+#rectangle3{
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    top: 980px;
+    background-color:#F0EDED;
+}
+
+#snake{
+    position: absolute;
+    top: 1800px;
+    width: 500px;
+    left: 8vw;
+}
+
+#snakecarousel{
+    position: absolute;
+    top: 1700px;
+    width: 700px;
+    left: 45vw;
+}
+
+#pac{
+    position: absolute;
+    top: 2420px;
+    width: 450px;
+    left: 59vw;
+}
+
+#paccarousel{
+    position: absolute;
+    top: 2300px;
+    width: 720px;
+    left: 4vw;
+}
+
+#hardware{
+    position: absolute;
+    top: 4150px;
+}
+
+#ae{
+    width: 470px;
+    position: absolute;
+    top: 300px;
+    left: 10vw;
+}
+
+#rectangle4{
+    width: 100vw;
+    height: 500px;
+    z-index: -10;
+    background-color:#F0EDED;
+}
+
+#arcadecarousel{
+    position: absolute;
+    top: 215px;
+    left: 55vw;
+ 
+    width: 350px;
+}
+
+#conclusion{
+    position: absolute;
+    top: 4900px;
+}
+
+#pbros{
+    position: absolute;
+    top: 240px;
+    width: 800px;
+}
+
+#team{
+    position: absolute;
+    top: 280px;
+    width: 500px;
+    left:60vw;
+}

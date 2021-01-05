@@ -1,19 +1,14 @@
 import React from 'react';
 
+import ProjectNav from "../components/ProjectNav"
+
 import { Carousel } from 'react-responsive-carousel';
 import '../assets/css/project2.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 import ReactGoogleSlides from 'react-google-slides';
 
-
-import rectangle from "../assets/images/BIDesignChallenge/rectangle.svg";
-
-import one from "../assets/images/BIDesignChallenge/1.png";
-import two from "../assets/images/BIDesignChallenge/2.png";
-import three from "../assets/images/BIDesignChallenge/3.png";
-
-import SectionTitle from "../components/SectionTitle";
+import SectionTitle from "../components/SectionTitleBlue";
 
 import summary from "../assets/images/BIDesignChallenge/summary.png";
 
@@ -65,12 +60,17 @@ import midfi2 from "../assets/images/BIDesignChallenge/midfi2.png";
 import midfi3 from "../assets/images/BIDesignChallenge/midfi3.png";
 import midfi4 from "../assets/images/BIDesignChallenge/midfi4.png";
 
+import one from "../assets/images/BIDesignChallenge/1.png";
+import two from "../assets/images/BIDesignChallenge/2.png";
+import three from "../assets/images/BIDesignChallenge/3.png";
+
 import HMW from "../assets/images/BIDesignChallenge/HMW.png";
 
 
 const Project2 = () => (
     <>
-        <img id = "rect" src = {rectangle} />
+        <ProjectNav></ProjectNav>
+        <div id = "rect"></div>
 
         <h1 id = "title">
             BERKELEY INNOVATION DESIGN CHALLENGE
@@ -90,6 +90,7 @@ const Project2 = () => (
             </Carousel>
         </div>
         
+        <div id = "move-everything">
 
         <div id = "box">
             <div id = "year">
@@ -105,7 +106,7 @@ const Project2 = () => (
             </div>
         </div>
 
-        <img src = {greyrect} id = "rect1"/>
+        <div id = "rect1"/>
         
         <div id = "slideshow">
             <ReactGoogleSlides
@@ -137,7 +138,7 @@ const Project2 = () => (
 
             </p>
 
-            <img src = {greyrect} id = "rect2"/>
+            <div id = "rect2"/>
             <img src = {HMW} id = "hmw"/>
         </section>
 
@@ -209,7 +210,7 @@ const Project2 = () => (
             name = "IDEATION"
             />
 
-            <p class = "para" id ="synthesis-description">
+            <p class = "para" id ="idea-description">
             I started off with a brain dump and mind map to visualize user needs.
             </p>
 
@@ -288,9 +289,11 @@ const Project2 = () => (
             name = "NEXT STEPS"
             />
 
-            <img id = "ns" src = {ns} />            
+            <img id = "ns" src = {ns} />       
+                 
             
         </section>
+        </div>
         
     </>
 

@@ -5,6 +5,8 @@ import logoblue from "./assets/images/logo-blue.png";
 import logo from "./assets/images/logo.png";
 import './assets/css/style.css';
 
+import { HashLink } from 'react-router-hash-link';
+
 
 
 function LogoChoice() {
@@ -20,7 +22,9 @@ function LogoChoice() {
 
                     <nav className = "navbar">
                         <li id = "proj">
-                            <Link class = "white" to = "/">Projects</Link>
+                            <HashLink smooth to="/#projects" class = "white">
+                                Projects
+                            </HashLink>
                         </li>
 
                         <li>
@@ -44,7 +48,9 @@ function LogoChoice() {
 
                 <nav className = "navbar">
                     <li id = "proj">
-                        <Link to = "/">Projects</Link>
+                        <HashLink smooth to="/#projects">
+                            Projects
+                        </HashLink>
                     </li>
 
                     <li>

@@ -1,0 +1,209 @@
+/*purple*/
+#rect-purple {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    
+    top: 90px;
+
+    background: rgba(175, 132, 209, 0.21);
+}
+
+#pat{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #0A0E60;
+}
+
+.purple{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FEFEFE;
+    top: 10vh;
+    margin-left: 6vw;
+}
+
+.purple:hover {
+    color: #0A0E60;
+}
+
+
+
+/*blue*/
+
+#rect-blue {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    
+    top: 90px;
+
+    background: #CDE5FF;
+}
+
+#bi{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #0A0E60;
+}
+
+.blue{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FEFEFE;
+    top: 10vh;
+    margin-left: 6vw;
+}
+
+.blue:hover {
+    color: #0A0E60;
+}
+
+
+/*red*/
+
+#rect-red {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    
+    top: 90px;
+
+    background: #F8DCDC;
+}
+
+#ra{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #0A0E60;
+}
+
+.red{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FEFEFE;
+    top: 10vh;
+    margin-left: 6vw;
+}
+
+.red:hover {
+    color: #0A0E60;
+}
+
+
+
+/*orange*/
+
+#rect-orange {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    
+    top: 90px;
+
+    background: #FFE0B2;
+}
+
+#byow{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #0A0E60;
+}
+
+.orange{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FEFEFE;
+    top: 10vh;
+    margin-left: 6vw;
+}
+
+.orange:hover {
+    color: #0A0E60;
+}
+
+
+
+
+/*pink*/
+
+#rect-pink {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    
+    top: 90px;
+
+    background: rgba(255, 152, 232, 0.53);
+}
+
+#kp{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #0A0E60;
+}
+
+.pink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FEFEFE;
+    top: 10vh;
+    margin-left: 6vw;
+}
+
+.pink:hover {
+    color: #0A0E60;
+}
+
+
+
+
+
+
+
+

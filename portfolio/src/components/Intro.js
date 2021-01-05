@@ -23,6 +23,12 @@ const Intro = props => (
             <h3 class = "subtitle">Tools</h3>
             <p class = "para"> {props.tools} </p>
         </div>
+
+        <div id = "team">
+            <img id = "line2" src = {props.line} />
+            <h3 class = "subtitle">Team</h3>
+            <p class = "para"> {props.team} </p>
+        </div>
     </div>
     </>
 );

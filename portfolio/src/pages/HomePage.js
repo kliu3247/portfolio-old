@@ -55,14 +55,14 @@ class HomePage extends React.Component {
             </div>
 
             
-            <Link id = "b" activeClass="active" to="Patagonia" spy={true} smooth={true} duration={1000}>
+            <Link id = "b" activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
                 Check out my work!
             </Link>
             <button class = "arrow down"></button>
 
             
 
-            <div id = "Patagonia">
+            <div id = "projects">
                 <ProjectSection
                     number = '1'
                     image = {pic1}
@@ -71,7 +71,7 @@ class HomePage extends React.Component {
                     label2 =  "DIGITAL"
                     label3 = "SPACES"
                     description = "Working to integrate digital spaces into Patagonia’s packaging."
-                    link = ""
+                    link = "/patagonia"
                     
                 />
             </div>
@@ -109,7 +109,7 @@ class HomePage extends React.Component {
                 label2 = "YOUR OWN"
                 label3 = "WORLD"
                 description = "Building a game from ground-up with data structures and algorithms."
-                link = ""
+                link = "/BYOW"
             />  
 
             <ProjectSection
@@ -120,7 +120,7 @@ class HomePage extends React.Component {
                 label2 = "DONUT"
                 label3 = "REDESIGN"
                 description = "Redesigning Berkeley's local donut shop’s website."
-                link = ""
+                link = "/Kingpin-donut"
             />                  
             </>
         );
