@@ -1,0 +1,36 @@
+.titlenumo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    text-decoration-line: underline;
+
+    color: #FFC061;
+
+    margin-right:10px;
+}
+
+.titleo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #FFC061;
+    width: 1000px;
+}
+
+#to{
+    display: flex;
+    margin-left: 75px;
+    margin-top: 60px;
+}

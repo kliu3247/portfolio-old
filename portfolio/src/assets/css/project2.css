@@ -207,6 +207,7 @@
 #problem{
     position: absolute;
     top: 1220px;
+    left: 40px;
 }
 
 #brainstorm{
@@ -244,6 +245,7 @@
 #ur{
     position: absolute;
     top: 1800px;
+    left: 40px;
 }
 
 .heading{
@@ -265,7 +267,7 @@
     color: #62ABFF;
 }
 
-#survey{
+#surveyb{
     position: absolute;
     width: 727px;
     height: 405px;
@@ -278,6 +280,7 @@
     width: 650px;
     height: 500px;
     top: 200px;
+    left: -40px;
 }
 
 #surveywords{
@@ -289,7 +292,7 @@
     margin-left: 50px;
 }
 
-#interview{
+#interviewb{
     position: absolute;
     width: 467px;
     height: 485px;
@@ -316,9 +319,10 @@
 #synthesis{
     position: absolute;
     top: 3000px;
+    left: 40px;
 }
 
-#insights{
+#insightsb{
     width:600px;
     margin-left: 11vw;
 }
@@ -374,6 +378,7 @@
     width: 333px;
     height: 59px;
     top: 5000px;
+    left: 40px;
 }
 
 #idea-description {
@@ -387,6 +392,7 @@
     position: absolute;
     height: 450px;
     width: 50vw;
+
 }
 
 #braindump{

@@ -1,0 +1,160 @@
+#rectpink{
+    height: 430px;
+    width: 100vw;
+    background-color: #FF98E8;
+    position: absolute;
+    top: 160px;
+}
+
+.subtitlepink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+
+    color:#FF98E8;
+}
+
+#titlepink{
+    position: absolute;
+    width: 200px;
+    height: 337px;
+    left: 10vw;
+    top: 170px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height:80px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+#repink1{
+    position: absolute;
+    top: 200px;
+    height: 400px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+#summarypink{
+    position: absolute;
+    left: 10vw;
+
+    top: 320px;
+    width: 450px;
+}
+
+#hifi1 {
+    position: absolute;
+    left: 53vw;
+
+    top: 200px;
+    height: 400px;
+    width: auto;
+}
+
+#ps{
+    position: absolute;
+    top: 1220px;
+}
+
+#repink2{
+    position: absolute;
+    top: 200px;
+    height: 450px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+#original{
+    position: absolute;
+    top: 200px;
+    width: 780px;
+}
+
+#origin{
+    position: absolute;
+    top: 300px;
+    left: 62vw;
+    width: 450px;
+}
+
+/*3*/
+#protos{
+    position: absolute;
+    top: 1900px;
+}
+
+#highfipink{
+    width: 700px;
+    position: absolute;
+    left: 50vw;
+}
+
+#hifid{
+    position: absolute;
+    top: 280px;
+    width: 450px;
+    left: 10vw;
+}
+
+#repink3{
+    position: absolute;
+    top: 214px;
+    height: 421px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+
+
+#midfipink{
+    position: absolute;
+    top: 770px;
+    width: 500px;
+    margin-left: 10vw;
+}
+#mifid{
+    position: absolute;
+    top: 830px;
+    width: 450px;
+    left: 58vw;
+}
+
+#repink4{
+    position: absolute;
+    top: 770px;
+    height: 431px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+
+
+#repink5{
+    position: absolute;
+    top: 1320px;
+    height: 500px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+#lowfipink{
+    position: absolute;
+    top: 1320px;
+    width: 385px;
+    left: 58vw;
+}
+
+#lowfid{
+    position: absolute;
+    top: 1400px;
+    left: 10vw;
+    width: 450px;
+}

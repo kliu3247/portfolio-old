@@ -1,0 +1,157 @@
+#recto{
+    height: 430px;
+    width: 100vw;
+    background-color: #FFC061;
+    position: absolute;
+    top: 160px;
+}
+
+#titleo{
+    position: absolute;
+    width: 500px;
+    height: 337px;
+    left: 10vw;
+    top: 200px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height:80px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+/*title box stuff*/
+
+#yearr{
+    display: flex;
+}
+
+#toolsr{
+    position: absolute;
+    left: 200px;
+    display: flex;
+}
+
+#line1o{
+    margin-right: 4px;
+    margin-top: 35px;
+    height: 3px;
+}
+
+#line2o{
+    margin-right: 4px;
+    margin-top: 35px;
+    height: 3px;
+}
+
+#line3o{
+    margin-right: 4px;
+    margin-top: 35px;
+    height: 3px;
+}
+
+.subtitleo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+
+    color: #FFC061;
+}
+
+#teamo{
+    position: absolute;
+    left: 820px;
+    display: flex;
+}
+
+#co{
+    position: absolute;
+    width: 620px;
+    top: 190px;
+    left: 50vw;
+}
+
+/*1*/
+
+#overviewo{
+    position: absolute;
+    width: 620px;
+    top: 650px;
+}
+#reco1{
+    position: absolute;
+    top: 850px;
+    height: 450px;
+    width: 100vw;
+    background-color:#EDEEF0;
+}
+
+#sumo{
+    position: absolute;
+    top: 940px;
+    width: 500px;
+    left: 7vw;
+}
+
+#mov{
+    position: absolute;
+    top: 900px;
+    left: 50vw;
+}
+
+#pfo{
+    position: absolute;
+    top: 1250px;
+}
+
+#carousel1{
+    position: absolute;
+    top: 240px;
+    width: 650px;
+    margin-left: 3vw;
+}
+
+#rwg{
+    width: 480px;
+    position: absolute;
+    top: 220px;
+    left: 60vw;
+}
+
+#reco2{
+    position: absolute;
+    top: 180px;
+    height: 400px;
+    left: 50vw;
+    width: 100vw;
+    z-index: -3;
+    background-color:#EDEEF0;
+}
+
+#am{
+    position: absolute;
+    top: 700px;
+    width: 450px;
+    left: 7vw;
+}
+
+#reco3{
+    position: absolute;
+    top: 580px;
+    height: 400px;
+    width: 50vw;
+    z-index: -3;
+    background-color:#EDEEF0;
+}
+
+#movie1{
+    position: absolute;
+    top: 620px;
+    left: 60vw;
+}

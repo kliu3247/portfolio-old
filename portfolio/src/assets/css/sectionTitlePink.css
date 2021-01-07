@@ -1,0 +1,36 @@
+.titlenumpink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    text-decoration-line: underline;
+
+    color: #FF98E8;
+
+    margin-right:10px;
+}
+
+.titlepink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #FF98E8;
+    width: 1000px;
+}
+
+#tpink{
+    display: flex;
+    margin-left: 75px;
+    margin-top: 60px;
+}

@@ -10,6 +10,7 @@ import ReactGoogleSlides from 'react-google-slides';
 
 import SectionTitle from "../components/SectionTitleBlue";
 
+
 import summary from "../assets/images/BIDesignChallenge/summary.png";
 
 import ns from "../assets/images/BIDesignChallenge/ns.png";
@@ -154,9 +155,9 @@ const Project2 = () => (
 
             <img src = {greyrect} id = "rect3"/>
             <img src = {surveywords} id = "surveywords"/>
-            <img id = "survey" src = {survey} />
+            <img id = "surveyb" src = {survey} />
             <img src = {greyrect} id = "rect4"/>
-            <img id = "interview" src = {interview} />
+            <img id = "interviewb" src = {interview} />
             <img src = {int} id = "int"/>
             
         </section>
@@ -170,8 +171,8 @@ const Project2 = () => (
                  Taking raw survey and interview data, I consildated information into relevant diagrams — charts, visuals, and quotes.
             </p>
 
-            <div id = "insights"> 
-                <Carousel autoPlay>
+            <div id = "insightsb"> 
+                <Carousel>
                     <div>
                         <img id = "insight1" src = {insight1} />
                     </div>
@@ -265,7 +266,7 @@ const Project2 = () => (
             </p>
 
             <div id = "mid-fi"> 
-                <Carousel autoPlay>
+                <Carousel>
                     <div>
                         <img id = "midfi1" src = {midfi1} />
                     </div>

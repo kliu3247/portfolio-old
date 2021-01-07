@@ -7,10 +7,14 @@ import '../assets/css/Project3.css';
 
 
 import { Carousel } from 'react-responsive-carousel';
-import '../assets/css/Project3.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 import ReactGoogleSlides from 'react-google-slides';
+
+
+import UI1 from "../assets/images/retroarcade/streetfighterUI.png";
+import UI2 from "../assets/images/retroarcade/pacmanUI.png";
+import UI3 from "../assets/images/retroarcade/snakeUI.png";
 
 import line from "../assets/images/retroarcade/line.png";
 import summary from "../assets/images/retroarcade/summary.png";
@@ -38,6 +42,9 @@ import pbros from "../assets/images/retroarcade/pbros.png";
 import team from "../assets/images/retroarcade/team.png";
 
 
+
+
+
 const Project3 = () => (
     <>
     <ProjectNav></ProjectNav>
@@ -45,7 +52,7 @@ const Project3 = () => (
     <div id = "rectr"></div>
 
     <h1 id = "title-pr">
-        RETRO ARCADE
+        RETRO ARCADE DESIGN
     </h1>
 
     <div id = "boxr">
@@ -69,6 +76,19 @@ const Project3 = () => (
         </div>
     </div>
 
+    <div id = "cr">
+            <Carousel autoPlay>
+                <div>
+                    <img src= {UI1} />
+                </div>
+                <div>
+                    <img src={UI2}/>
+                </div>
+                <div>
+                    <img src={UI3}/>
+                </div>
+            </Carousel>
+        </div>
 
     <section id = "Overviewr">
         <SectionTitle 
