@@ -4,6 +4,7 @@ import line from "../assets/images/arrows/Line 2.svg";
 import arrow from "../assets/images/arrows/seethisproj.png";
 
 
+
 const ProjectSection = props => (
     <>
         <div className = {'target' + props.number}>

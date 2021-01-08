@@ -15,10 +15,15 @@ import proj2 from "../projects/Project2";
 
 import { Link } from 'react-scroll';
 
+import FadeIn from 'react-fade-in';
+import ScrollAnimation from 'react-animate-on-scroll';
+
+
 class HomePage extends React.Component {
     render() {
         return (
             <>
+            <FadeIn>
                 <div class ="background">
                 <div id = "me">
                     <img id = "kelly" src ={kelly} />
@@ -33,6 +38,7 @@ class HomePage extends React.Component {
                             }}
                         />
                     </section>
+            
             
                     <section id = "hair-right">   
                         <Wave fill='#0A0E60'
@@ -54,14 +60,18 @@ class HomePage extends React.Component {
                     philosophy is to <span id = "bold">design for social impact</span>. 
                 </p>
             </div>
-
             
             <Link id = "b" activeClass="active" to="projects" spy={true} smooth={true} duration={1500}>
                 Check out my work!
             </Link>
             <button class = "arrow down" id = "arr"></button>
+            
+            </FadeIn>
+
 
             <div id = "projects">
+           
+
                 <ProjectSection
                     number = '1'
                     image = {pic1}
@@ -73,6 +83,8 @@ class HomePage extends React.Component {
                     link = "/patagonia"
                     
                 />
+                 
+
             </div>
 
             <Link id = "b2" activeClass="active" to="project-2" spy={true} smooth={true} duration={1000}>

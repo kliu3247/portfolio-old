@@ -17,11 +17,14 @@ import img15 from "../assets/images/visual arts/bd54df82-d593-4aa8-ad39-148b41dc
 
 import Footer from "../components/Footer.js";
 
+import FadeIn from 'react-fade-in';
+
 
 import '../assets/css/visual-arts.css';
 
 const VisualArts = () => (
     <>
+    <FadeIn>
         <div>
             <h1 class = "visual-arts">VISUAL ARTS</h1>
         </div>
@@ -53,10 +56,12 @@ const VisualArts = () => (
 
                 </div>
             </section>
+            </FadeIn>
 
         <div id = "footart">
             <Footer/> 
         </div>
+        
             
     </>
 );
