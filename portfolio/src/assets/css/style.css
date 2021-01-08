@@ -1,3 +1,7 @@
+.arrowContainer:hover{
+    margin-left: 50px;
+    transform: scale(1.1);
+}
 /*** 
 CSS FOR INTRO PAGE
  ***/
@@ -7,7 +11,6 @@ html{
 
 body{
     margin:  0 0 0 0;
-    
 }
 
 
@@ -208,6 +211,7 @@ span{
         top: 40%;
         left: 15%;
     }
+
 }
 
 /*responsiveness for aspect ratios*/
@@ -490,6 +494,111 @@ span{
     color: #0A0E60;
 }
 
+#b:hover{
+    transform: scale(1.1);
+}
+
+#b2{
+    position: absolute;
+    top: 202%;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    cursor: pointer;
+
+    color: #0A0E60;
+    z-index: 100;
+}
+
+#b2:hover{
+    transform: scale(1.1);
+}
+
+
+#b3{
+    position: absolute;
+    top: 303%;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    cursor: pointer;
+
+    color: #0A0E60;
+    z-index: 100;
+}
+
+#b3:hover{
+    transform: scale(1.1);
+}
+
+#b4{
+    position: absolute;
+    top: 405%;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    cursor: pointer;
+
+    color: #0A0E60;
+    z-index: 100;
+}
+
+#b4:hover{
+    transform: scale(1.1);
+}
+
+#b5{
+    position: absolute;
+    top: 507%;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    cursor: pointer;
+
+    color: #0A0E60;
+    z-index: 100;
+}
+
+#b5:hover{
+    transform: scale(1.1);
+}
+
 .arrow {
     text-align: center;
 
@@ -499,13 +608,18 @@ span{
     display: inline-block;
     padding: 3px;
 
-    position: absolute;
-    top:95%;
+    
     left:50%;
 
     -webkit-animation: 1.5s arrow infinite ease;
     animation: 1.5s arrow infinite ease;
-  }
+    z-index: 100;
+}
+
+#arr{
+    position: absolute;
+    top:95%;
+}
 
 @keyframes arrow{
     0%, 100%{
@@ -653,6 +767,8 @@ CSS FOR PROJECTS PAGE
         padding-right: 15px;
     }
 
+    
+
     .arrowContainer{
         display:flex;
     }
@@ -737,7 +853,7 @@ CSS FOR PROJECTS PAGE
         font-style: normal;
         font-weight: 700;
         font-size: 70px;
-        line-height: 78px;
+        line-height: 45px;
         letter-spacing: 0.1em;
 
         color: #FFFFFF;

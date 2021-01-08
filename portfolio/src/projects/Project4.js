@@ -25,6 +25,9 @@ import ReactPlayer from "react-player"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
+
+import Footer from "../components/Footer.js";
+
 const Project4 = () => (
     <>
         <ProjectNav></ProjectNav>
@@ -121,6 +124,10 @@ const Project4 = () => (
     </video>
 
     </section>
+
+    <div id = "foot4">
+        <Footer/> 
+    </div>
 
     
     </>

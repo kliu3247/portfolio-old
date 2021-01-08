@@ -41,6 +41,7 @@ import a3 from "../assets/images/retroarcade/h3.png";
 import pbros from "../assets/images/retroarcade/pbros.png";
 import team from "../assets/images/retroarcade/team.png";
 
+import Footer from "../components/Footer.js";
 
 
 
@@ -220,6 +221,10 @@ const Project3 = () => (
         <img id = "pbros" src = {pbros} />  
         <img id = "team" src = {team} />  
     </section>
+
+    <div id = "foot3">
+            <Footer/> 
+        </div>
 
 </>
     

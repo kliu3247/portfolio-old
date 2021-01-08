@@ -40,6 +40,8 @@ import lowfipink3 from "../assets/images/kingpin/lowfi3.png";
 import lowfipink4 from "../assets/images/kingpin/lowfi4.png";
 import lowfid from "../assets/images/kingpin/lowfi.png";
 
+import Footer from "../components/Footer.js";
+
 const Project5 = () => (
     <>
         <ProjectNav></ProjectNav>
@@ -196,6 +198,10 @@ const Project5 = () => (
 
         <img id = "lowfid" src = {lowfid}/> 
     </section> 
+
+    <div id = "foot5">
+        <Footer/> 
+    </div>
 
     </>
 );

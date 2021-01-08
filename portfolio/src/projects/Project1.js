@@ -48,6 +48,8 @@ import insights from "../assets/images/Patagonia/insights.png";
 import team from "../assets/images/Patagonia/team.png";
 import ty from "../assets/images/Patagonia/thankyou.png";
 
+import Footer from "../components/Footer.js";
+
 
 const Project1 = () => (
     <>
@@ -190,6 +192,9 @@ const Project1 = () => (
         <img id = "typ" src =  {ty} /> 
     </section>
 
+    <div id = "foot">
+        <Footer/> 
+    </div>
     </>
 
 );

@@ -20,6 +20,7 @@ import bd from "../assets/images/BIDesignChallenge/bd.png";
 import mm from "../assets/images/BIDesignChallenge/mm.png";
 
 import int from "../assets/images/BIDesignChallenge/int.png";
+import Footer from "../components/Footer.js";
 
 
 
@@ -294,6 +295,10 @@ const Project2 = () => (
                  
             
         </section>
+        </div>
+
+        <div id = "foot2">
+            <Footer/> 
         </div>
         
     </>

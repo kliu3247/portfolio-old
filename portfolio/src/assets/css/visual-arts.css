@@ -4,7 +4,10 @@ html{
  
  body{
      margin:  0 0 0 0;
-     
+ }
+
+ #footart{
+    margin-top: 60px;
  }
 
 .visual-arts{

@@ -525,3 +525,7 @@
     left: 3vw;
 }
 
+#foot2{
+    position: absolute;
+    top: 9500px;
+}

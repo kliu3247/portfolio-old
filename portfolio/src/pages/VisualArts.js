@@ -15,6 +15,9 @@ import img13 from "../assets/images/visual arts/a9a3a4b2-90b3-46a9-9faa-04dd8dd1
 import img14 from "../assets/images/visual arts/4473c63b-2aee-4123-b72a-cb7451566701.png";
 import img15 from "../assets/images/visual arts/bd54df82-d593-4aa8-ad39-148b41dc39df.png";
 
+import Footer from "../components/Footer.js";
+
+
 import '../assets/css/visual-arts.css';
 
 const VisualArts = () => (
@@ -51,6 +54,10 @@ const VisualArts = () => (
                 </div>
             </section>
 
+        <div id = "footart">
+            <Footer/> 
+        </div>
+            
     </>
 );
 

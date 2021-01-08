@@ -1,0 +1,92 @@
+#profile{
+    margin-left: -10vw;
+    height: 40vw;
+    width: 53vw;
+}
+
+#arectangle{
+    position:absolute;
+    top: 190px;
+    width: 100vw;
+    height: 40vw;
+    background-color: #C9DDE6;
+    z-index: -10;
+}
+
+#hi{
+    position: absolute;
+    top: 30%;
+    left: 50vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+
+#imkelly{
+        position: absolute;
+        top: 35%;
+        left: 60vw;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        
+        color: #3f3b3b;
+}
+
+#engineering{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    width: 600px;
+
+    position: absolute;
+    top: 47%;
+    left: 45vw;
+
+    color: #413c3e;
+}
+
+.listing{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #464344;
+    width: 650px;
+}
+
+#organize{
+    position: absolute;
+    top: 60%;
+    left: 43vw;
+}
+
+#resume1{
+    position: absolute;
+    top: 900px;
+    width:1200px;
+    left: 10%;
+}
+
+#resume2{
+    position: absolute;
+    top: 1598px;
+    width:1200px;
+    left: 9.8%;
+}
+
+#foot-about{
+    position: absolute;
+    top: 2550px;
+}

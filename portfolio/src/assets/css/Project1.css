@@ -271,10 +271,10 @@
 }
 
 #ins{
-    width: 90vw;
+    width: 1100px;
     position: absolute;
     top: 280px;
-    left: 4vw;
+    left: 5vw;
 }
 
 #in{
@@ -298,4 +298,9 @@
     position: absolute;
     top: 300px;
     left: 58vw;
+}
+
+#foot{
+    position: absolute;
+    top: 7450px;
 }

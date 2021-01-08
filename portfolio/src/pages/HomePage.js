@@ -3,6 +3,7 @@ import kelly from '../assets/images/kelly.svg';
 import '../assets/css/style.css';
 import Wave from 'react-wavify'
 import ProjectSection from "../components/ProjectSection.js";
+import Footer from "../components/Footer.js";
 
 import pic1 from "../assets/images/Patagonia/hangtag.svg";
 import pic2 from "../assets/images/retroarcade/retroarcade.svg";
@@ -55,12 +56,10 @@ class HomePage extends React.Component {
             </div>
 
             
-            <Link id = "b" activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
+            <Link id = "b" activeClass="active" to="projects" spy={true} smooth={true} duration={1500}>
                 Check out my work!
             </Link>
-            <button class = "arrow down"></button>
-
-            
+            <button class = "arrow down" id = "arr"></button>
 
             <div id = "projects">
                 <ProjectSection
@@ -75,43 +74,65 @@ class HomePage extends React.Component {
                     
                 />
             </div>
+
+            <Link id = "b2" activeClass="active" to="project-2" spy={true} smooth={true} duration={1000}>
+                See my next project
+            </Link>
            
+            <div id = "project-2">
+                <ProjectSection
+                    
+                    number = '3'
+                    image = {pic3}
+                    type = "UI/UX | RESEARCH"
+                    label1 = "BI"
+                    label2 = "DESIGN"
+                    label3 = "CHALLENGE"
+                    description = "Reimagining virtual lab courses with the onset of COVID-19."
+                    link = "/BI-design-challenge"
+                />   
+            </div>
 
-            <ProjectSection
-                number = '3'
-                image = {pic3}
-                type = "UI/UX | RESEARCH"
-                label1 = "BI"
-                label2 = "DESIGN"
-                label3 = "CHALLENGE"
-                description = "Reimagining virtual lab courses with the onset of COVID-19."
-                link = "/BI-design-challenge"
-            />   
+            <Link id = "b3" activeClass="active" to="project-3" spy={true} smooth={true} duration={1000}>
+                See my next project
+            </Link>
 
 
-            <ProjectSection
-                number = '2'
-                image = {pic2}
-                type = "UI/UX | GRAPHIC DESIGN"
-                label1 = "RETRO"
-                label2 = "ARCADE"
-                label3 = "DESIGN"
-                description = "Reimagining and revamping classic arcade games."
-                link = "/Retro-arcade"
-            />
+            <div id = "project-3">
+                <ProjectSection
+                    number = '2'
+                    image = {pic2}
+                    type = "UI/UX | GRAPHIC DESIGN"
+                    label1 = "RETRO"
+                    label2 = "ARCADE"
+                    label3 = "DESIGN"
+                    description = "Reimagining and revamping classic arcade games."
+                    link = "/Retro-arcade"
+                />
+            </div>
 
-            
-            <ProjectSection
-                number = '4'
-                image = {pic4}
-                type = "SOFTWARE ENGINEERING"
-                label1 = "BUILD"
-                label2 = "YOUR OWN"
-                label3 = "WORLD"
-                description = "Building a game from ground-up with data structures and algorithms."
-                link = "/BYOW"
-            />  
+            <Link id = "b4" activeClass="active" to="project-4" spy={true} smooth={true} duration={1000}>
+                See my next project
+            </Link>
 
+            <div id = "project-4">
+                <ProjectSection
+                    number = '4'
+                    image = {pic4}
+                    type = "SOFTWARE ENGINEERING"
+                    label1 = "BUILD"
+                    label2 = "YOUR OWN"
+                    label3 = "WORLD"
+                    description = "Building a game from ground-up with data structures and algorithms."
+                    link = "/BYOW"
+                />  
+            </div>
+
+            <Link id = "b5" activeClass="active" to="project-5" spy={true} smooth={true} duration={1000}>
+                See my next project
+            </Link>
+
+            <div id = "project-5">
             <ProjectSection
                 number = '5'
                 image = {pic5}
@@ -121,8 +142,13 @@ class HomePage extends React.Component {
                 label3 = "REDESIGN"
                 description = "Redesigning Berkeley's local donut shop’s website."
                 link = "/Kingpin-donut"
-            />                  
+            />     
+            </div>
+
+            <Footer/> 
+
             </>
+            
         );
     }
 }
