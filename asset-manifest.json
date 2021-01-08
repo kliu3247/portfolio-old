@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kliu2347.github.io/static/css/main.ba77f7e5.chunk.css",
-    "main.js": "/kliu2347.github.io/static/js/main.0aa55096.chunk.js",
-    "main.js.map": "/kliu2347.github.io/static/js/main.0aa55096.chunk.js.map",
+    "main.js": "/kliu2347.github.io/static/js/main.19b8aa6d.chunk.js",
+    "main.js.map": "/kliu2347.github.io/static/js/main.19b8aa6d.chunk.js.map",
     "runtime-main.js": "/kliu2347.github.io/static/js/runtime-main.507b226e.js",
     "runtime-main.js.map": "/kliu2347.github.io/static/js/runtime-main.507b226e.js.map",
     "static/css/2.55d8add8.chunk.css": "/kliu2347.github.io/static/css/2.55d8add8.chunk.css",
@@ -169,6 +169,6 @@
     "static/css/2.55d8add8.chunk.css",
     "static/js/2.1b8185b1.chunk.js",
     "static/css/main.ba77f7e5.chunk.css",
-    "static/js/main.0aa55096.chunk.js"
+    "static/js/main.19b8aa6d.chunk.js"
   ]
 }
