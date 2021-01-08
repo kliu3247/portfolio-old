@@ -18,13 +18,50 @@ import img15 from "../assets/images/visual arts/bd54df82-d593-4aa8-ad39-148b41dc
 import Footer from "../components/Footer.js";
 
 import FadeIn from 'react-fade-in';
+import Error from "../components/Error.js";
 
 
 import '../assets/css/visual-arts.css';
 
-const VisualArts = () => (
+
+const viewportContext = React.createContext({});
+
+const ViewportProvider = ({ children }) => {
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const [height, setHeight] = React.useState(window.innerHeight);
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
+  return (
+    <viewportContext.Provider value={{ width, height }}>
+      {children}
+    </viewportContext.Provider>
+  );
+};
+
+const useViewport = () => {
+  const { width, height } = React.useContext(viewportContext);
+  return { width, height };
+};
+
+const MobileComponent = () =>(
     <>
+    <Error />
+    </>);
+
+
+const DesktopComponent = () => (
+<>
+    <div id = "everything">
     <FadeIn>
+        
         <div>
             <h1 class = "visual-arts">VISUAL ARTS</h1>
         </div>
@@ -56,14 +93,34 @@ const VisualArts = () => (
 
                 </div>
             </section>
+            
             </FadeIn>
 
         <div id = "footart">
             <Footer/> 
         </div>
-        
+        </div>
             
     </>
 );
 
-export default VisualArts;
+const MyComponent = () => {
+    const { width } = useViewport();
+    const breakpoint = 750;
+  
+    return width < breakpoint ? <MobileComponent /> : <DesktopComponent />;
+  };
+  
+  export default function VisualArts() {
+    return (
+      <ViewportProvider>
+        <MyComponent />
+      </ViewportProvider>
+    );
+  }
+
+
+
+
+
+

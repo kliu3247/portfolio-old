@@ -1,16 +1,32 @@
-.arrowContainer:hover{
-    margin-left: 50px;
-    transform: scale(1.1);
+
+
+.arrowContainer{
+    animation: slide1 1.5s ease-in-out infinite;
 }
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+  
+
 /*** 
 CSS FOR INTRO PAGE
  ***/
-html{
-   overflow-x: hidden;
-}
+
 
 body{
     margin:  0 0 0 0;
+}
+
+html{
+    overflow-x: hidden;
 }
 
 
@@ -27,10 +43,10 @@ nav ul{
     z-index: 20;
 }
 
-
 header {
     position: -webkit-sticky; 
     position: sticky;
+
     top: 0;
 
     display: flex;
@@ -43,7 +59,9 @@ header {
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
+    z-index: 1000;
 }
+
 
 .navbar li{
     position: sticky;
@@ -85,7 +103,14 @@ header:visited{
 .header{
     background:opacity(0);
     height: 50px;
-    z-index: 20;
+    z-index: 1000;
+} 
+.header2{
+    background:opacity(0);
+    height: 50px;
+    z-index: 1000;
+    position: fixed;
+    width: 98vw;
 } 
 
 .background{
@@ -93,6 +118,7 @@ header:visited{
     top: -100px;
     background-color: white;
     height:100vh;
+
 }
 
 #med-font{
@@ -136,8 +162,26 @@ header:visited{
 
 #description{
     position: absolute;
-    top: 65vh;
-    width: 80wh;
+    top: 67vh;
+    height: 132px;
+
+    left: 40vw;
+    right: 10vw;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+    
+}
+
+#description2{
+    position: absolute;
+    top: 79vh;
+    width: 50vw;
     height: 132px;
 
     left: 40vw;
@@ -146,14 +190,37 @@ header:visited{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
-    font-size: 34px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 24px;
 
-    color: #000000;
+    color: #555ab3;
 }
 
-span{
+.description3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #555ab3;
+}
+
+#description3position{
+    position: absolute;
+    top: 83vh;
+    left: 43vw;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#lessbold{
     font-weight: 500;
+}
+
+#bold{
+    font-weight: 510;
 }
 
 #specific{
@@ -172,8 +239,43 @@ span{
     color: black;
 }
 
+/*iphonex*/
 
+@media only screen and (max-width:500px) and (min-width:350px) {
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index: 2;
+        position: absolute;
+        top: -40%;
+        left: -40%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        left:-40%;
+        top: 5%;
+        min-width: 900px;
+        
+        transform: rotate(235deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 38%;
+        left: 15%;
+    }
 
+}
 
 
 
@@ -196,7 +298,7 @@ span{
         z-index: 1;
         width: 70%;
         left:-40%;
-        top: 4%;
+        top: 5%;
         min-width: 900px;
         
         transform: rotate(235deg) ; 
@@ -208,8 +310,151 @@ span{
         z-index: 1;
         width: 90%;
         
-        top: 40%;
+        top: 38%;
         left: 15%;
+    }
+
+}
+
+@media only screen and (max-width:1100px) and (min-width: 1030px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+    width: 50%;
+    left: -37%;
+    top: 8%;
+    min-width: 750px;
+        
+        transform: rotate(235deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 38%;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width:1030px) and (min-width: 950px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+    width: 50%;
+    left: -39%;
+    top: 6%;
+    min-width: 750px;
+        
+        transform: rotate(235deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 38%;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width:950px) and (min-width: 800px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        left:-40%;
+        top: 8%;
+        min-width: 750px;
+        
+        transform: rotate(235deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 37%;
+        left: 20%;
+    }
+
+}
+
+
+@media only screen and (max-width:850px) and (min-width: 700px){
+    #kelly{
+        padding: 15% 15% 15% 15%;
+        z-index:2;
+        position: absolute;
+        top:-60%;
+        left:-17%;
+        width: auto;
+        height: 130%;
+        object-fit: cover;
+        min-width: 1000px;
+    }
+    
+    #hair-left{
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        left:-40%;
+        top: 8%;
+        min-width: 700px;
+        
+        transform: rotate(235deg) ; 
+    }
+    
+    #hair-right{
+        position: absolute;
+        transform: rotate(169deg) ;
+        z-index: 1;
+        width: 90%;
+        
+        top: 37%;
+        left: 19%;
     }
 
 }
@@ -282,7 +527,7 @@ span{
         position: absolute;
         transform: rotate(169deg) ;
         z-index: 1;
-        width: 90%;
+        width: 100%;
         
         top: 40%;
         left: 15%;
@@ -319,9 +564,9 @@ span{
         position: absolute;
         transform: rotate(169deg) ;
         z-index: 1;
-        width: 90%;
+        width: 100%;
         
-        top: 40%;
+        top: 38%;
         left: 15%;
     }
 }
@@ -475,6 +720,8 @@ span{
     }
 }
 
+
+
 #b{
     position: absolute;
     bottom: 2%;
@@ -509,13 +756,13 @@ span{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     /* identical to box height */
 
     cursor: pointer;
 
-    color: #0A0E60;
+    color: white;
     z-index: 100;
 }
 
@@ -535,13 +782,13 @@ span{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     /* identical to box height */
 
     cursor: pointer;
 
-    color: #0A0E60;
+    color: white;
     z-index: 100;
 }
 
@@ -560,13 +807,13 @@ span{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     /* identical to box height */
 
     cursor: pointer;
 
-    color: #0A0E60;
+    color: white;
     z-index: 100;
 }
 
@@ -585,13 +832,13 @@ span{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     /* identical to box height */
 
     cursor: pointer;
 
-    color: #0A0E60;
+    color: white;
     z-index: 100;
 }
 

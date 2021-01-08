@@ -180,7 +180,7 @@ const Project5 = () => (
         <div id = "repink5"/>  
 
         <div id = "lowfipink">
-            <Carousel  autoPlay>
+            <Carousel >
                 <div>
                     <img src= {lowfipink1} />
                 </div>

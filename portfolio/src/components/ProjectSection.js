@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import line from "../assets/images/arrows/Line 2.svg";
 import arrow from "../assets/images/arrows/seethisproj.png";
 
-
-
 const ProjectSection = props => (
     <>
         <div className = {'target' + props.number}>
+            
             <div id = {"project" + props.number}>
                 <img id = {"projPic" + props.number} src = {props.image}/>
             </div>

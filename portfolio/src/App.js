@@ -15,25 +15,29 @@ import {
 
 import Navbar from './Navbar';
 
+import ScrollToTopRoute from './components/ScrollToTopRoute';
+
 class App extends Component {
   render(){
     return (
+      
       <Router>
         <div className="App">
           <Navbar />
 
           <div id = "page-body">
             <Route path="/" component ={HomePage} exact />
-            <Route path="/about" component ={About} exact />
-            <Route path="/visual-arts" component ={VisualArts} exact />
-            <Route path="/patagonia" component ={Project1} exact />
-            <Route path="/BI-design-challenge" component ={Project2} exact />
-            <Route path="/Retro-arcade" component ={Project3} exact />
-            <Route path="/BYOW" component ={Project4} exact />
-            <Route path="/Kingpin-donut" component ={Project5} exact />
+            <ScrollToTopRoute path="/about" component ={About} exact />
+            <ScrollToTopRoute path="/visual-arts" component ={VisualArts} exact />
+            <ScrollToTopRoute path="/patagonia" component ={Project1} exact />
+            <ScrollToTopRoute path="/BI-design-challenge" component ={Project2} exact />
+            <ScrollToTopRoute path="/Retro-arcade" component ={Project3} exact />
+            <ScrollToTopRoute path="/BYOW" component ={Project4} exact />
+            <ScrollToTopRoute path="/Kingpin-donut" component ={Project5} exact />
           </div>
         </div>
       </Router>
+      
     );
   }
 }

@@ -1,4 +1,6 @@
 #profile{
+    position:relative;
+    top: 58px;
     margin-left: -10vw;
     height: 40vw;
     width: 53vw;
@@ -6,7 +8,7 @@
 
 #arectangle{
     position:absolute;
-    top: 190px;
+    top: 150px;
     width: 100vw;
     height: 40vw;
     background-color: #C9DDE6;
@@ -70,6 +72,24 @@
     position: absolute;
     top: 60%;
     left: 43vw;
+}
+
+#resumetitle{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: 0.6em;
+
+    position: absolute;
+    top: 70px;
+
+    color: #0A0E60;
+    text-align: center;
+    width: 100vw;
 }
 
 #resume1{

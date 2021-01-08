@@ -69,10 +69,10 @@
 
 #summarypurple{
     position: absolute;
-    top: 280px;
+    top: 300px;
     z-index: 30;
-    left:5vw;
-    width: 500px;
+    left:7vw;
+    width: 450px;
 }
 
 /*2*/
@@ -296,8 +296,8 @@
 #typ{
     width: 550px;
     position: absolute;
-    top: 300px;
-    left: 58vw;
+    top: 250px;
+    left: 800px;
 }
 
 #foot{

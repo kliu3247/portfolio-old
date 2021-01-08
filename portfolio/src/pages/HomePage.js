@@ -16,14 +16,49 @@ import proj2 from "../projects/Project2";
 import { Link } from 'react-scroll';
 
 import FadeIn from 'react-fade-in';
-import ScrollAnimation from 'react-animate-on-scroll';
+
+import Error from "../components/Error.js";
 
 
-class HomePage extends React.Component {
-    render() {
-        return (
-            <>
-            <FadeIn>
+const viewportContext = React.createContext({});
+
+const ViewportProvider = ({ children }) => {
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const [height, setHeight] = React.useState(window.innerHeight);
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
+  return (
+    <viewportContext.Provider value={{ width, height }}>
+      {children}
+    </viewportContext.Provider>
+  );
+};
+
+const useViewport = () => {
+  const { width, height } = React.useContext(viewportContext);
+  return { width, height };
+};
+
+const MobileComponent = () =>(
+    <>
+    <Error />
+    </>);
+
+
+
+
+
+const DesktopComponent = () => (
+    <>
+    <FadeIn>
                 <div class ="background">
                 <div id = "me">
                     <img id = "kelly" src ={kelly} />
@@ -57,8 +92,15 @@ class HomePage extends React.Component {
                 <h1 id = "big-font">Kelly</h1>
 
                 <p id = "description">I am an engineering student at UC Berkeley. My 
-                    philosophy is to <span id = "bold">design for social impact</span>. 
+                    philosophy is to <span id = "lessbold">design for social impact</span>. 
+                    
                 </p>
+
+                <p id = "description2">
+                I am currently consulting at <span id = "bold">Berkeley Innovation</span>, software engineering at <span id = "bold">Dispatch Goods</span>, 
+                and coding this website from scratch with  <span id = "bold">React</span>!
+                </p>
+                
             </div>
             
             <Link id = "b" activeClass="active" to="projects" spy={true} smooth={true} duration={1500}>
@@ -83,7 +125,6 @@ class HomePage extends React.Component {
                     link = "/patagonia"
                     
                 />
-                 
 
             </div>
 
@@ -158,11 +199,20 @@ class HomePage extends React.Component {
             </div>
 
             <Footer/> 
+    </>
+);
 
-            </>
-            
-        );
-    }
+const MyComponent = () => {
+  const { width } = useViewport();
+  const breakpoint = 750;
+
+  return width < breakpoint ? <MobileComponent /> : <DesktopComponent />;
+};
+
+export default function HomePage() {
+  return (
+    <ViewportProvider>
+      <MyComponent />
+    </ViewportProvider>
+  );
 }
-
-export default HomePage;

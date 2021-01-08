@@ -6,6 +6,11 @@ html{
      margin:  0 0 0 0;
  }
 
+ #everything{
+     position: absolute;
+     top:100px;
+ }
+
  #footart{
     margin-top: 60px;
  }

@@ -6,6 +6,7 @@ import logo from "./assets/images/logo.png";
 import './assets/css/style.css';
 
 import { HashLink } from 'react-router-hash-link';
+import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -16,6 +17,7 @@ function LogoChoice() {
         return (
             <>
                 <header className = "header">
+                <ScrollToTop smooth color="#0A0E60;"/>
                     <Link to = "/" className = "logo">
                     <img class = "logopic" src = {logo}/>
                     </Link>
@@ -41,9 +43,11 @@ function LogoChoice() {
     } 
     return (
         <>
-            <header className = "header">
+            <header className = "header2">
+            <ScrollToTop smooth color="#0A0E60;"/>
                 <Link to = "/" className = "logo">
                     <img class = "logopic" src = {logoblue}/>
+                    
                 </Link>
 
                 <nav className = "navbar">
