@@ -9,7 +9,7 @@ import Project4 from './projects/Project4';
 import Project5 from './projects/Project5';
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Route,
 } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ class App extends Component {
   render(){
     return (
       
-      <Router>
+      <HashRouter>
         <div className="App">
           <Navbar />
 
@@ -36,7 +36,7 @@ class App extends Component {
             <ScrollToTopRoute path="/Kingpin-donut" component ={Project5} exact />
           </div>
         </div>
-      </Router>
+      </HashRouter>
       
     );
   }
